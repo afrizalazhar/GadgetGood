@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE categories [ 
+<!ELEMENT categories (category+)>
+<!ELEMENT category (id, name)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+]>
+<categories>
+    
+</categories>

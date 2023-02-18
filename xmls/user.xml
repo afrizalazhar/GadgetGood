@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE user [
+<!ELEMENT user (first_name, last_name, email, mobile, address1, address2)> 
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT address1 (#PCDATA)>
+<!ELEMENT address2 (#PCDATA)>
+]>
+<user>
+</user>

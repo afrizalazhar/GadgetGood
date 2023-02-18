@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE products [
+<!ELEMENT products (product+)>
+<!ELEMENT product (product-id, product-category, product-brand, product-title, product-price, product-qty, product-desc, product-image, product-keywords)>
+<!ELEMENT product-id (#PCDATA)>
+<!ELEMENT product-category (#PCDATA)>
+<!ELEMENT product-brand (#PCDATA)>
+<!ELEMENT product-title (#PCDATA)>
+<!ELEMENT product-price (#PCDATA)>
+<!ELEMENT product-qty (#PCDATA)>
+<!ELEMENT product-desc (#PCDATA)>
+<!ELEMENT product-image (#PCDATA)>
+<!ELEMENT product-keywords (#PCDATA)>
+]>
+<products>
+    
+</products>

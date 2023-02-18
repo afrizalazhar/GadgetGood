@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE cart [ 
+<!ELEMENT cart (products)>
+<!ELEMENT products (product+)>
+<!ELEMENT product (qty, product-id, product-category, product-brand, product-title, product-price, product-qty, product-desc, product-image, product-keywords)>
+<!ELEMENT qty (#PCDATA)>
+<!ELEMENT product-id (#PCDATA)>
+<!ELEMENT product-category (#PCDATA)>
+<!ELEMENT product-brand (#PCDATA)>
+<!ELEMENT product-title (#PCDATA)>
+<!ELEMENT product-price (#PCDATA)>
+<!ELEMENT product-qty (#PCDATA)>
+<!ELEMENT product-desc (#PCDATA)>
+<!ELEMENT product-image (#PCDATA)>
+<!ELEMENT product-keywords (#PCDATA)>
+]>
+<cart>
+    
+</cart>
