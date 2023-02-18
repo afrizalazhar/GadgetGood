@@ -26,14 +26,14 @@ The e-commerce website must fulfill the following criteria; i.e. it should:
 
 #### Index
 
-```http
+```bash
   GET /index.php
 ```
 
 
 #### Show product by category
 
-```http
+```bash
   GET /product_catalog.php?category=${category_id}
 ```
 
@@ -43,7 +43,7 @@ The e-commerce website must fulfill the following criteria; i.e. it should:
 
 #### Detail Product
 
-```http
+```bash
   GET /detail_product.php?productID=${product_id}
 ```
 
@@ -53,46 +53,46 @@ The e-commerce website must fulfill the following criteria; i.e. it should:
 
 #### Cart
 
-```http
+```bash
   GET /cart.php
 ```
 
 #### User Order
 
-```http
+```bash
   GET /customer_order.php
 ```
 
 #### User Profile
 
-```http
+```bash
   GET /profile.php
 ```
 
 #### Iser Order
 
-```http
+```bash
   GET /customer_order.php
 ```
 
 #### Admin
 
-```http
+```bash
   GET admin/index.php
 ```
-```http
+```bash
   GET admin/customer_orders.php
 ```
-```http
+```bash
   GET admin/products.php
 ```
-```http
+```bash
   GET admin/brands.php
 ```
-```http
+```bash
   GET admin/categories.php
 ```
-```http
+```bash
   GET admin/customers.php
 ```
 ## XML / DTD
